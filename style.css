@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&family=Open+Sans&family=Poppins:ital,wght@0,300;0,600;1,100;1,400&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+
+*{
+    margin: 0;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    position: fixed;
+}
+
+nav a{
+    text-decoration: none;
+    font-size:26px;
+    color: rgb(225, 223, 236);
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    padding: 10px 15px;
+}
+
+section{
+    background-color: rgb(141, 199, 107);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-text h2{
+    font-size: 50px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+
+.section-text h1{
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-weight: 700;
+}
+
+.section-text svg{
+    position: relative;
+    top: 150px;
+    left: 350px;
+    animation: arrow 1s ease-in-out infinite alternate;
+}
+
+@keyframes arrow {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+    
+}
+
+.primary-text{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    color: rgb(5, 90, 90);
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(17, 24, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about img{
+    height: 300px;
+    width: 200px;
+    margin-top: 20px; 
+}
+
+.about p{
+    font-size: 30px;
+    color: cadetblue;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    text-align: center;
+    width: 700px;
+}
+
+.up{
+    position: absolute;
+    left: 1400px;
+    top: 1075px;
+}
+.down{
+    position: absolute;
+    left: 1400px;
+    top: 1125px;
+}
+
+.project-section{
+    background-color: rgb(205, 71, 71);
+    padding-top: 30px;
+    height: 200vh;
+    width: 100%;
+}
+
+.project-section h2{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-size: 60px;
+    padding-left: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(24, 18, 11);
+}
+.p1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+}
+.image1{
+    width: 50%;
+}
+.image1 img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+
+.details1 input{
+    padding: 10px 40px;
+    border: 1px solid #4e4848;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+}
+.details1 input:hover{
+    color: #cdc2c2;
+    background-color: #a37979;
+}
+.details1{
+    width: 50%;
+}
+.details1 h2{
+    color: rgb(255, 190, 100);
+    font-size: 50px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    position: relative;
+    left: -500px;
+}
+
+.details1 a{
+    position: relative;
+    left: 80px;
+}
+
+.up1{
+    position: absolute;
+    left: 1400px;
+    top: 1850px;
+}
+.down1{
+    position: absolute;
+    left: 1400px;
+    top: 2550px;
+}
+
+.contact-section{
+    background-color: rgb(6, 9, 9);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+       
+}
+.contact-section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.contact-section h2{
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.up2{
+    position: absolute;
+    left: 1400px;
+    top: 3350px;
+}
+.p2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+}
+.image2{
+    width: 50%;
+}
+.image2 img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+
+.details2 input{
+    padding: 10px 40px;
+    border: 1px solid #4e4848;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+}
+.details2 input:hover{
+    color: #cdc2c2;
+    background-color: #a37979;
+}
+.details2{
+    width: 50%;
+}
+.details2 h2{
+    color: rgb(255, 190, 100);
+    font-size: 50px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    position: relative;
+    left: -500px;
+}
+.details2 a{
+    position: relative;
+    left: 80px;
+}
+.image3{
+    width: 50%;
+}
+.image3 img{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+
+.details3 input{
+    padding: 10px 40px;
+    border: 1px solid #4e4848;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+}
+.details3 input:hover{
+    color: #cdc2c2;
+    background-color: #a37979;
+}
+.details3{
+    width: 50%;
+}
+.details3 h2{
+    color: rgb(255, 190, 100);
+    font-size: 50px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    position: relative;
+    left: -500px;
+}
+.details3 a{
+    position: relative;
+    left: 80px;
+}
+.p3{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+}
